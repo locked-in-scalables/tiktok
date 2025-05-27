@@ -13,8 +13,7 @@ export function NavBar({
       {...props}
     >
       <div>TikTok</div>
-      {/* TODO: Update to link to sign up page */}
-      <div>Sign Up</div>
+      <a href="/login">Log in</a>
     </nav>
   );
 }
