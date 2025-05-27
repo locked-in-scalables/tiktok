@@ -6,9 +6,10 @@ export function NavBar({
 }: React.ComponentPropsWithoutRef<"nav">) {
   return (
     <nav
-      className={
-        cn("flex w-full items-center justify-between border-b p-4 text-xl font-semibold", className)
-      }
+      className={cn(
+        "flex w-full items-center justify-between border-b p-4 text-xl font-semibold",
+        className,
+      )}
       {...props}
     >
       <div>TikTok</div>
